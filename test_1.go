@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func test_for(num int) {
+func testFor(num int) {
 	for i := 0; i < num; i++ {
 		// go fmt.Print(i)
 		fmt.Print(i)
@@ -10,14 +10,14 @@ func test_for(num int) {
 	}
 }
 
-func test_array() [2]int {
+func testArray() [2]int {
 	array1 := [2]int{0, 0}
 	array1[0] = 1
 	array1[1] += 2
 	return array1
 }
 
-func test_slice() {
+func testSlice() {
 	s := make([]int, 2)
 	s[0] = 1
 	s[1] = 2
@@ -25,7 +25,7 @@ func test_slice() {
 	fmt.Print(s, "\n")
 }
 
-func test_map(a ...int) (map[int]int, error) {
+func testMap(a ...int) (map[int]int, error) {
 	m := make(map[int]int, 0)
 	for _, i := range a {
 		m[i] = i * 2
@@ -33,7 +33,7 @@ func test_map(a ...int) (map[int]int, error) {
 	return m, nil
 }
 
-func test_struct() {
+func testStruct() {
 	type info struct {
 		id   int
 		name struct {

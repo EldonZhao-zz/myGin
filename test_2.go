@@ -39,7 +39,7 @@ func (w Worker) eat() string {
 	return "Worker " + w.name + " study " + w.food
 }
 
-func test_itf() {
+func testItf() {
 	s := Student{name: "123", book: "xasx", food: "xasax"}
 	fmt.Print(s.study())
 }

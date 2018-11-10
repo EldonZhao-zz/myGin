@@ -4,12 +4,13 @@ package main
 
 func main() {
 	// fmt.Print("Hello World\n")
-	// test_for(10)
-	// fmt.Print(test_array())
-	// test_slice()
-	// m, err := test_map(1, 2, 3, 4)
+	// testFor(10)
+	// fmt.Print(testArray())
+	// testSlice()
+	// m, err := testMap(1, 2, 3, 4)
 	// fmt.Print(m, err)
-	// test_struct()
-	// test_itf()
-	test_goroutine()
+	// testStruct()
+	// testItf()
+	// testGoroutine()
+	testChannel()
 }
