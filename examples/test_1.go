@@ -1,6 +1,8 @@
-package main
+package examples
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func testFor(num int) {
 	for i := 0; i < num; i++ {

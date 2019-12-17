@@ -1,6 +1,10 @@
 package main
 
-// import "fmt"
+import (
+	"fmt"
+
+	"./examples"
+)
 
 func main() {
 	// fmt.Print("Hello World\n")
@@ -12,5 +16,6 @@ func main() {
 	// testStruct()
 	// testItf()
 	// testGoroutine()
-	testChannel()
+	fmt.Printf("Main Func\n")
+	examples.TestChannel()
 }

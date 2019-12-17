@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"fmt"
@@ -59,7 +59,8 @@ func pong(pings <-chan string, pongs chan string) {
 	// fmt.Println(<-pongs)
 }
 
-func testChannel() {
+// TestChannel Func
+func TestChannel() {
 	// n := 3
 	// // c := make(chan string) // 无缓冲信道
 	// c := make(chan string, n+1) // 有缓冲信道

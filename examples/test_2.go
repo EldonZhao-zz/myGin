@@ -1,4 +1,4 @@
-package main
+package examples
 
 import (
 	"fmt"
@@ -6,17 +6,20 @@ import (
 
 // import "strings"
 
+// Man type
 type Man interface {
 	study() string
 	eat() string
 }
 
+// Student type
 type Student struct {
 	name string
 	food string
 	book string
 }
 
+// Worker type
 type Worker struct {
 	name string
 	food string
