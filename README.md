@@ -1,5 +1,4 @@
-# golang-study
-
-A repository to study golang
+# myGin
+A repository for studying golang gin
 
 ## Usage
